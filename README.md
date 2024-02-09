@@ -1,3 +1,8 @@
+# Social Media App
+
+Welcome to the Social Media App! This is a simple web application where users can sign in with Google, create posts, and view posts created by other users.
+
+## Features
 
 - User authentication with Google OAuth.
 - Create new posts with content and timestamp.
