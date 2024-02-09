@@ -1,0 +1,154 @@
+/* App.css */
+body {
+  background: linear-gradient(to right, #1a1a1a, #222);
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+header .unique-name {
+  font-size: 24px;
+  font-style: italic;
+}
+
+/* Main content */
+main {
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* SignIn component */
+.SignIn {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #666;
+  border-radius: 5px;
+}
+
+.SignIn input[type="email"],
+.SignIn input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+.SignIn button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px; /* Add space between buttons */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.SignIn button:hover {
+  background-color: #0056b3;
+}
+
+/* SignOut component */
+.SignOut {
+  margin-top: 10px;
+  background-color: #0056b3;
+  color: #fff; /* Change button text color */
+}
+
+/* UserProfile component */
+.UserProfile {
+  border: 1px solid #666;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.UserProfile h2 {
+  margin-bottom: 20px;
+}
+.PostList h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff; /* Light color for text */
+  text-shadow: 0 0 10px #fff; /* Add glowing effect with light color */
+}
+/* PostForm component */
+.PostForm {
+  margin-bottom: 20px;
+}
+
+.PostForm textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+}
+
+.PostForm button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.PostForm button:hover {
+  background-color: #218838;
+}
+
+/* PostList component */
+.PostList {
+  margin-top: 20px;
+}
+
+.PostList .post {
+  border: 1px solid #666;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.PostList .post .post-content {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #fff; /* Light color for text */
+  text-shadow: 0 0 10px #fff; /* Add glowing effect with light color */
+}
+
+.PostList .post .post-timestamp {
+  font-size: 12px;
+  color: #888;
+}
