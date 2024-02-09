@@ -15,5 +15,5 @@ Welcome to the Social Media App! This is a simple web application where users ca
 - Bootstrap: Frontend framework for styling and layout.
 
 ## Demo Video
+[screen-capture.webm](https://github.com/Soumyadeepchanda/social-media/assets/93461379/126b3f8d-848d-44e1-9ea4-7386ef6658bc)
 
-<iframe width="560" height="315" src="https://vimeo.com/911472637?share=copy" frameborder="0" allowfullscreen></iframe>
